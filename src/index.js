@@ -1,6 +1,11 @@
 // imports at the top
 const prompt = require('prompt-sync')();
 
+//helper functions
+const getRandomIntInRange = (min, max) => {
+    return Math.random() * (max - min) + min;
+}
+
 let userName
 
 const welcomeAndGetName = () => {
