@@ -17,7 +17,10 @@ const showOptions = () => {
         3 - cheer you on!
         Any other key - exit
     `)
-    const select = prompt("Select 1, 2, or 3: ")
+}
+
+const getUserNumber = () => {
+    const userInputOption = Number(prompt("Select 1, 2, or 3: ").trim());
 }
 
 const sayGoodbye = () => {
@@ -28,6 +31,7 @@ const sayGoodbye = () => {
 const main = () => {
     welcomeAndGetName();
     showOptions();
+    getUserNumber();
     sayGoodbye();
 }
 
