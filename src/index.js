@@ -24,12 +24,22 @@ const showOptions = () => {
     `)
 }
 
+let userInputOption
+
 const getUserNumber = () => {
-    const userInputOption = Number(prompt("Select 1, 2, or 3: ").trim());
+    userInputOption = Number(prompt("Select 1, 2, or 3: ").trim());
+}
+
+const checkAnswer = () => {
 }
 
 const handleGuessingGame = () => {
-    
+    const userGuess = Number(prompt("Pick a number between 0 and 5: "));
+    if (getRandomIntInRange(0, 6) == userInputOption) {
+        console.log('Congratulations! You won!');
+    } else {
+        console.log(`Better luck next time`);
+    }
 }
 
 const event = () => {
@@ -37,9 +47,10 @@ const event = () => {
     if (option === 1) {
         handleGuessingGame();
     // } else if (option === 2) {
-  // handleWordsOfWisdom() // doesn't exist yet
+//   handleWordsOfWisdom() // doesn't exist yet
     // } else if (option === 3) {
   // handleCheer // doesn't exist yet
+    }
 }
 
 const sayGoodbye = () => {
