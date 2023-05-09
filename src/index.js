@@ -23,6 +23,20 @@ const getUserNumber = () => {
     const userInputOption = Number(prompt("Select 1, 2, or 3: ").trim());
 }
 
+const handleGuessingGame = () => {
+    
+}
+
+const event = () => {
+    const option = getUserNumber();
+    if (option === 1) {
+        handleGuessingGame();
+    // } else if (option === 2) {
+  // handleWordsOfWisdom() // doesn't exist yet
+    // } else if (option === 3) {
+  // handleCheer // doesn't exist yet
+}
+
 const sayGoodbye = () => {
     console.log(`Goodbye, ${userName}`)
 }
@@ -32,6 +46,7 @@ const main = () => {
     welcomeAndGetName();
     showOptions();
     getUserNumber();
+    handleGuessingGame();
     sayGoodbye();
 }
 
