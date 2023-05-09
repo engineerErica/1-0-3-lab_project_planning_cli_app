@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "- [1.0.3 Lab: Project Planning with a CLI App](#103-lab-project-planning-with-a-cli-app)   - [Welcome to your first Node lab!](#welcome-to-your-first-node-lab)   - [Goals](#goals)   - [CLI vs GUI](#cli-vs-gui) - [The Ask](#the-ask) - [Features](#features) - [Choosing the foundations, MVP, and stretch features](#choosing-the-foundations-mvp-and-stretch-features) - [Research](#research)   - [Some help](#some-help) - [Step 1: Create a project](#step-1-create-a-project) - [Step 2: Research](#step-2-research) - [Step 3: File setup](#step-3-file-setup)   - [Check connections](#check-connections) - [Step 4: welcomeAndGetName()](#step-4-welcomeandgetname)   - [State](#state)   - [handling white space](#handling-white-space) - [Step 5: List the options](#step-5-list-the-options) - [Step 6: sayGoodbye](#step-6-saygoodbye)   - [DRY - Don't Repeat Yourself](#dry---dont-repeat-yourself) - [Pause: That's our foundations!](#pause-thats-our-foundations) - [Step 7: Select an option](#step-7-select-an-option)   - [Validation](#validation) - [Step 8: \"Route\" to an \"event handler\"](#step-8-route-to-an-event-handler) - [Step 9: Pick a random number](#step-9-pick-a-random-number) - [Step 10: Compare answers and output](#step-10-compare-answers-and-output)   - [Pure functions](#pure-functions) - [Pause: MVP Done!](#pause-mvp-done) - [Stretch Goals: More options](#stretch-goals-more-options)   - [File Structure](#file-structure) - [Next steps: Looping](#next-steps-looping)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engineerErica/1-0-3-lab_project_planning_cli_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/engineerErica/1-0-3-lab_project_planning_cli_app/issues"
+  },
+  "homepage": "https://github.com/engineerErica/1-0-3-lab_project_planning_cli_app#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
