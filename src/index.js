@@ -1,7 +1,7 @@
 // imports at the top
 const prompt = require('prompt-sync')();
 
-const welcome = () => {
+const welcomeAndGetName = () => {
     console.log("Welcome, user!");
     const name = prompt("What is your name? ")
     console.log(`Greetings, ${name}. Pleasure to meet you!`)
@@ -9,7 +9,7 @@ const welcome = () => {
 
 // Primary runner function
 const main = () => {
-    const name = welcome()
+    const name = welcomeAndGetName()
 }
 
 main();
